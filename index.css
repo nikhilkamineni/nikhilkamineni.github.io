@@ -153,16 +153,16 @@ select {
 }
 /* CUSTOM STYLES HERE */
 @font-face {
-  font-family: 'Dosis';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Dosis Light'), local('Dosis-Light'), url(https://fonts.gstatic.com/s/dosis/v7/HhyXU5sn9vOmLzHDKeCFMI4.ttf) format('truetype');
-}
-@font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 100;
   src: local('Lato Hairline'), local('Lato-Hairline'), url(https://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHh30AXC-v.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Palanquin';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Palanquin ExtraLight'), local('Palanquin-ExtraLight'), url(https://fonts.gstatic.com/s/palanquin/v3/9XUilJ90n1fBFg7ceXwUvnpYw5Gu.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Sirin Stencil';
@@ -181,7 +181,7 @@ body {
 }
 body h1 {
   font-family: 'Sirin Stencil', cursive;
-  font-size: 60px;
+  font-size: 50px;
   color: #bb9900;
 }
 body h2 {
@@ -192,19 +192,15 @@ body h2 {
   padding: 15px;
 }
 body .About {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-}
-body .About p {
-  font-family: 'Dosis', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
+  font-family: 'Palanquin', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
   line-height: 1.5;
   text-align: center;
   width: 50%;
   height: auto;
+  margin: 10px;
+  padding: 20px 0 20px;
 }
 body .Links {
   padding: 15px;
@@ -222,4 +218,5 @@ body .Links .Link:hover {
   width: 32px;
   border: 1px dashed rgba(200, 200, 200, 0.5);
   border-radius: 3px;
+  background: #292929;
 }
