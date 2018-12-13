@@ -153,6 +153,12 @@ select {
 }
 /* CUSTOM STYLES HERE */
 @font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Dosis Light'), local('Dosis-Light'), url(https://fonts.gstatic.com/s/dosis/v7/HhyXU5sn9vOmLzHDKeCFMI4.ttf) format('truetype');
+}
+@font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 100;
@@ -167,8 +173,8 @@ select {
 body {
   background: #262222;
   color: #aaaaaa;
-  display: flex;
   height: 700px;
+  display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
@@ -184,6 +190,21 @@ body h2 {
   font-weight: 100;
   color: #aaaaaa;
   padding: 15px;
+}
+body .About {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+body .About p {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  width: 50%;
+  height: auto;
 }
 body .Links {
   padding: 15px;

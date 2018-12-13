@@ -166,13 +166,13 @@ select {
 }
 
 /* CUSTOM STYLES HERE */
-@import url('https://fonts.googleapis.com/css?family=Sirin+Stencil|Lato:100');
+@import url('https://fonts.googleapis.com/css?family=Sirin+Stencil|Lato:100|Dosis:300');
 
 body {
   background: #262222;
   color: #aaaaaa;
-  display: flex;
   height: 700px;
+  display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
@@ -188,6 +188,22 @@ body {
     font-weight: 100;
     color: #aaaaaa;
     padding: 15px;
+  }
+
+  .About {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-family: 'Dosis', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 1.5;
+      text-align: center;
+      width: 50%;
+      height: auto;
+    }
   }
 
   .Links {
