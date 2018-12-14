@@ -194,16 +194,17 @@ body h2 {
 body .About {
   font-family: 'Palanquin', sans-serif;
   font-weight: 200;
-  font-size: 18px;
+  font-size: 16px;
+  color: #888888;
   line-height: 1.5;
   text-align: center;
-  width: 50%;
+  width: 40%;
   height: auto;
   margin: 10px;
-  padding: 20px 0 20px;
+  padding: 5px 0 20px;
 }
 body .Links {
-  padding: 15px;
+  padding: 5px;
   width: auto;
   height: auto;
 }
@@ -218,5 +219,5 @@ body .Links .Link:hover {
   width: 32px;
   border: 1px dashed rgba(200, 200, 200, 0.5);
   border-radius: 3px;
-  background: #292929;
+  background: #232020;
 }
