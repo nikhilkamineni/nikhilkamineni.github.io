@@ -180,6 +180,7 @@ body {
   align-items: center;
 }
 body h1 {
+  padding-top: 10px;
   font-family: 'Sirin Stencil', cursive;
   font-size: 50px;
   color: #bb9900;
@@ -201,7 +202,7 @@ body .About {
   width: 40%;
   height: auto;
   margin: 10px;
-  padding: 5px 0 20px;
+  padding: 5px 0 10px;
 }
 body .Links {
   padding: 5px;
